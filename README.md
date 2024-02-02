@@ -1,4 +1,4 @@
-# Script com instalação padrão do Zabbix, MySQL e o NGINX
+# Script com instalação padrão do Zabbix, MySQL e o NGINX #
 
 Download da ISO do Ubuntu Server
  https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso
@@ -12,10 +12,10 @@ Desenvolvido e personalizado por Joel Fernandes
 # Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
 
-# Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário, 
-#echo "#------------------------------------------------------#"
+## Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário, 
+<b>#echo "#------------------------------------------------------#"</b>
 #echo "Linha para instalar a versão 6.0 do Zabbix"
-#echo "#------------------------------------------------------#"
+<b>#echo "#------------------------------------------------------#"</b>
 #wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
 #dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
 echo "#------------------------------------------------------#"
