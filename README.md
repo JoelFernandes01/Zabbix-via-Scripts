@@ -1,3 +1,9 @@
+<style>
+  p {
+    line-height: 0.8;
+  }
+</style>
+
 # Script com instalação padrão do Zabbix, MySQL e o NGINX #
 
 <b>Download da ISO do Ubuntu Server</b>
@@ -13,11 +19,6 @@ Desenvolvido e personalizado por Joel Fernandes
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
 
 ### Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.
-<style>
-  p {
-    line-height: 0.8;
-  }
-</style>
 <p>echo "#------------------------------------------------------#"</p>
 <p>echo "Linha para instalar a versão 6.0 do Zabbix"<p>
 <p>echo "#------------------------------------------------------#"<p>
