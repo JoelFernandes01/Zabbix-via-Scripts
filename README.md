@@ -12,6 +12,13 @@
 <h3>Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0</h3>
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
 
+Baixe o script em seu ubuntu server, mude seu permissão para execução (chmod +x) e o execute .
+Ex. git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git
+cd Zabbix-via-Scripts/
+./Zabbix-MySQL-Install.sh
+Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix
+
+<h2>Importante:</h2>
 <h3>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h3>
 <p>echo "#------------------------------------------------------#"</p>
 <p>echo "Linha para instalar a versão 6.0 do Zabbix"<p>
@@ -30,6 +37,8 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>dpkg -i zabbix-release_6.5-1+ubuntu22.04_all.deb</p>
 
 No caso do exemplo acima, escolhi instalar a versão Zabbix 6.4, então descomentei as linhas refrenciando essa versão.
+
+
 
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
 
