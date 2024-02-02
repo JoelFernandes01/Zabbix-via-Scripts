@@ -20,7 +20,7 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix</p>
 
 <h2>Importante:</h2>
-<h3>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h3>
+<h4>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h4>
 <p>echo "#------------------------------------------------------#"</p>
 <p>echo "Linha para instalar a versão 6.0 do Zabbix"<p>
 <p>echo "#------------------------------------------------------#"<p>
