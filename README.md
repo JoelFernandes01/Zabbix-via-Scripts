@@ -12,11 +12,11 @@ Desenvolvido e personalizado por Joel Fernandes
 # Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
 
-## Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.
-<b>#echo "#------------------------------------------------------#"</b>
-<b>#echo "Linha para instalar a versão 6.0 do Zabbix"</b>
-<b>#echo "#------------------------------------------------------#"</b>
-<b>#wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb</b>
+### Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.
+<a>#echo "#------------------------------------------------------#"</a>
+<a>#echo "Linha para instalar a versão 6.0 do Zabbix"</a>
+<a>#echo "#------------------------------------------------------#"</a>
+<a>#wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb</a>
 <b>#dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb</b>
 <b>echo "#------------------------------------------------------#"</b>
 <b>echo "Linha para instalar a versão 6.4 do Zabbix"</b>
