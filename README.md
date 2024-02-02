@@ -1,4 +1,4 @@
-<h2>Script com instalação padrão do Zabbix, MySQL e o NGINX #</h2>
+<h2>Script com instalação padrão do Zabbix, MySQL e o NGINX </h2>
 
 <p>Download da ISO do Ubuntu Server</p>
 <p>https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso</p>
@@ -38,8 +38,6 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>dpkg -i zabbix-release_6.5-1+ubuntu22.04_all.deb</p>
 
 No caso do exemplo acima, escolhi instalar a versão Zabbix 6.4, então descomentei as linhas refrenciando essa versão.
-
-
 
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
 
