@@ -14,8 +14,8 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 
 ### Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.
 <p>#echo "#------------------------------------------------------#"</p>
-<p>#echo "Linha para instalar a versão 6.0 do Zabbix"</p>
-<p>#echo "#------------------------------------------------------#"</p>
+#echo "Linha para instalar a versão 6.0 do Zabbix"
+#echo "#------------------------------------------------------#"
 <p>#wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb</p>
 <b>#dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb</b>
 <b>echo "#------------------------------------------------------#"</b>
