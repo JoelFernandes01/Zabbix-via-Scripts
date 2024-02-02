@@ -1,9 +1,3 @@
-<style>
-  p {
-    line-height: 0.8;
-  }
-</style>
-
 # Script com instalação padrão do Zabbix, MySQL e o NGINX #
 
 <b>Download da ISO do Ubuntu Server</b>
