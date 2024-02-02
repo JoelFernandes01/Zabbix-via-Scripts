@@ -12,7 +12,7 @@
 <h3>Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0</h3>
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
 
-<h2>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h2>
+<h3>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h3>
 <p>echo "#------------------------------------------------------#"</p>
 <p>echo "Linha para instalar a versão 6.0 do Zabbix"<p>
 <p>echo "#------------------------------------------------------#"<p>
