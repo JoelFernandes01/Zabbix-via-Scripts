@@ -20,7 +20,7 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 #--------------------------------------------------------------------------------------------------------------------------#
 Será baixado e instalado o repositório do Zabbix e suas dependências #--------------------------------------------------------------------------------------------------------------------------#
 Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .
-<p>Aqui você coloca a versão que deseja instalar</p>
+<p><h3>__Aqui você coloca a versão que deseja instalar</h3></p>
 
 
 <p>Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix</p>
