@@ -10,9 +10,9 @@
 <p>- Facebook: https://www.facebook.com/JoelFernandesSilvaFilho/</p>
 --------------------------------------------------------------------------
 <h3>Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0</h3>
-Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no linl "Download" , https://www.zabbix.com/download .
+Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no link "Download" , https://www.zabbix.com/download .
 
-<p>Baixe o script em seu Ubuntu Server 22;04, e o execute .</p>
+<p>Baixe o script em seu Ubuntu Server 22.04, e o execute .</p>
 <p>Passos:</p>
 <p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
 <p>cd Zabbix-via-Scripts/</p>
@@ -20,9 +20,8 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>#----------------------------------------------------------------#</p>
 <p>Será baixado e instalado o repositório do Zabbix e suas dependências</p>
 <p>#----------------------------------------------------------------#</p>
-<p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .<p>
-<p></p>
-
+<p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .</p>
+<p>#</p>
 <p>Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix</p>
 
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
