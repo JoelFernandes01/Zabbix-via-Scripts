@@ -16,7 +16,7 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>Passos:</p>
 <p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
 <p>cd Zabbix-via-Scripts/</p>
-./Zabbix-MySQL-Install.sh
+<p>./Zabbix-MySQL-Install.sh</p>
 #----------------------------------------------------------------#
 <p>Será baixado e instalado o repositório do Zabbix e suas dependências</p>
 #----------------------------------------------------------------#
