@@ -19,7 +19,7 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>./Zabbix-MySQL-Install.sh</p>
 #--------------------------------------------------------------------------------------------------------------------------#
 Será baixado e instalado o repositório do Zabbix e suas dependências #--------------------------------------------------------------------------------------------------------------------------#
-Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .
+<p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .</p>
 Aqui você coloca a versão que deseja instalar
 
 
