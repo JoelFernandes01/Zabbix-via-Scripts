@@ -17,8 +17,8 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
 <p>cd Zabbix-via-Scripts/</p>
 <p>./Zabbix-MySQL-Install.sh</p>
-#----------------------------------------------------------------#
-Será baixado e instalado o repositório do Zabbix e suas dependências #----------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------#
+Será baixado e instalado o repositório do Zabbix e suas dependências #----------------------------------------------------------------------------------------------#
 <p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .</p>
 
 <p>Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix</p>
