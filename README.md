@@ -17,28 +17,15 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 <p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
 <p>cd Zabbix-via-Scripts/</p>
 <p>./Zabbix-MySQL-Install.sh</p>
+<p>#----------------------------------------------------------------#</p>
+<p>Será baixado e instalado o repositório do Zabbix e suas dependências</p>
+<p>#----------------------------------------------------------------#</p>
+<p>Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 .<p>
+
 <p>Ao final do script, ele informará o IP , Usuário e Senha de acesso ao Zabbix</p>
-
-<h2>Importante:</h2>
-<h4>Nele você irá encontrar três opções, que devem serem habilitadas ou não conforme seu laborário.</h4>
-<p>echo "#------------------------------------------------------#"</p>
-<p>echo "Linha para instalar a versão 6.0 do Zabbix"<p>
-<p>echo "#------------------------------------------------------#"<p>
-<p>wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb</p>
-<p>dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb</p>
-<p>echo "#------------------------------------------------------#"</p>
-<p>echo "Linha para instalar a versão 6.4 do Zabbix"</p>
-<p>echo "#------------------------------------------------------#"</p>
-<p>wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb</p>
-<p>dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb</p>
-<p>echo "#------------------------------------------------------#"</p>
-<p>echo "Linha para instalar a versão 7.0 do Zabbix"</p>
-<p>echo "#------------------------------------------------------#"</>
-<p>wget https://repo.zabbix.com/zabbix/6.5/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.5-1+ubuntu22.04_all.deb</b>
-<p>dpkg -i zabbix-release_6.5-1+ubuntu22.04_all.deb</p>
-
-No caso do exemplo acima, escolhi instalar a versão Zabbix 6.4, então descomentei as linhas refrenciando essa versão.
 
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
 
 Agradeço a quem puder colaborar .
+
+Já quero agradecer ao Dilan Severino (https://www.linkedin.com/in/dilan-severino-de-oliveira-b4310022b/) que me deu a idéia de usar a função "case" no script e ficou bem melhor que antes.
