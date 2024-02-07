@@ -32,4 +32,5 @@ Agradeço a quem puder colaborar .
 <h4>Adicionamos um pequeno script de Backup, veja em</h4>
 https://github.com/JoelFernandes01/Zabbix-via-Scripts/tree/master/Backups
 
+
 Já quero agradecer ao Dilan Severino (https://www.linkedin.com/in/dilan-severino-de-oliveira-b4310022b/) que me deu a idéia de usar a função "case" no script e ficou bem melhor que antes.
