@@ -13,8 +13,6 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios .
 <p>Passos:</p>
 <p>git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git</p>
 <p>cd Zabbix-via-Scripts/</p>
-<p>crie as pastas
-<p>mkdir -p banco zabbix
 <p>rode o comando 
 <p>./Backup-Zabbix-MySQL.sh</p>
 
