@@ -10,16 +10,6 @@
 # - Linkedin: https://www.linkedin.com/in/joel-fernandes-25838425/
 # - Facebook: https://www.facebook.com/JoelFernandesSilvaFilho/
 #----------------------------------------------------------------------------
-
-COLUMNS=$(tput cols)
-println(){
-for ((i=3;i<=${COLUMNS};i++)) ; { [[ $i == 3 ]] && \
-echo -n '#' ; echo -n -
-[[ $i == ${COLUMNS} ]] &&\
-echo -n '#' ; }
-}
-println
-
 echo "#------------------------------------------------------------------#"
 echo "Será baixado e instalado o repositório do Zabbix e suas dependências"
 echo "#------------------------------------------------------------------#"
