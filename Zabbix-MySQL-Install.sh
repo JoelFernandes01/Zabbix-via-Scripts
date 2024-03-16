@@ -105,4 +105,22 @@ echo    "######## Usuário Zabbix: Admin                      ########"
 echo    "######## Senha		    : zabbix                     ########"
 echo    "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo    "######## Note: Não esqueça de mudar a senha depois  ########"
-echo    "########============================================########"
+echo    "########============================================########"echo "Baixando, instalando e configurando o Grafana"
+
+sleep 10
+
+echo "Preparando o ambiente para instalar o Grafana"
+sudo apt-get install -y apt-transport-https software-properties-common wget
+sudo mkdir -p /etc/apt/keyrings/
+wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
+export DEBIAN_FRONTEND=noninteractive
+sudo apt-get update
+sudo apt-get install grafana
+grafana-cli plugins install alexanderzobnin-zabbix-app
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+
+
+
+
