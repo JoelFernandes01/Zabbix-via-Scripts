@@ -1,5 +1,5 @@
 #----------------------------------------------------------------------------
-# Instalação automatizada do Zabbix e o MySQL no Ubuntu Server 22.04
+# Instalação automatizada do Zabbix, MySQL e o Grafana no Ubuntu Server 22.04
 #
 # Download da ISO do Ubuntu Server
 # https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso
@@ -102,13 +102,14 @@ echo "Parabéns, seu Zabbix instalado com sucesso !"
 echo    "########============================================########"
 echo    "######## URL de acesso : http://$inet_value/        ########"
 echo    "######## Usuário Zabbix: Admin                      ########"
-echo    "######## Senha		    : zabbix                     ########"
+echo    "######## Senha		    : zabbix                 ########"
 echo    "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo    "######## Note: Não esqueça de mudar a senha depois  ########"
-echo    "########============================================########"echo "Baixando, instalando e configurando o Grafana"
+echo    "########============================================########"
 
 sleep 10
 
+echo "Baixando, instalando e configurando o Grafana"
 echo "Preparando o ambiente para instalar o Grafana"
 sudo apt-get install -y apt-transport-https software-properties-common wget
 sudo mkdir -p /etc/apt/keyrings/
