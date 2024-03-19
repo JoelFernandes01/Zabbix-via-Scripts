@@ -111,17 +111,12 @@ sleep 10
 
 echo "Baixando, instalando e configurando o Grafana"
 echo "Preparando o ambiente para instalar o Grafana"
-sudo apt-get install -y apt-transport-https software-properties-common wget
-sudo mkdir -p /etc/apt/keyrings/
-wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt/keyrings/grafana.gpg > /dev/null
-echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
-export DEBIAN_FRONTEND=noninteractive
-sudo apt-get update
-sudo apt-get install grafana
-grafana-cli plugins install alexanderzobnin-zabbix-app
+sudo apt-get install -y adduser libfontconfig1 musl
+sudo wget https://dl.grafana.com/oss/release/grafana_10.1.8_amd64.deb
+sudo dpkg -i grafana_10.1.8_amd64.deb
+sudo grafana-cli plugins install alexanderzobnin-zabbix-app
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
-
 
 
 
