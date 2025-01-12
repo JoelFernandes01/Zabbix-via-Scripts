@@ -28,8 +28,8 @@ case $a in
                 ;;
         (7.0)
                 echo "Linha para instalar a versão 7.0 do Zabbix"
-                wget https://repo.zabbix.com/zabbix/6.5/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.5-1+ubuntu22.04_all.deb
-        		dpkg -i zabbix-release_6.5-1+ubuntu22.04_all.deb
+                wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+        		dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
                 ;;
 esac
 clear
@@ -112,9 +112,9 @@ sleep 10
 echo "Baixando, instalando e configurando o Grafana"
 echo "Preparando o ambiente para instalar o Grafana"
 sudo apt-get install -y adduser libfontconfig1 musl
-sudo wget https://dl.grafana.com/oss/release/grafana_10.1.8_amd64.deb
-sudo dpkg -i grafana_10.1.8_amd64.deb
-sudo grafana-cli plugins install alexanderzobnin-zabbix-app
+sudo https://dl.grafana.com/oss/release/grafana_11.4.0_amd64.deb
+sudo dpkg -i grafana_11.4.0_amd64.deb
+#sudo grafana-cli plugins install alexanderzobnin-zabbix-app
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 
