@@ -15,7 +15,7 @@ Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está ap
 ## Etapa 1: Faça o clone do repositório em seu Ubuntu 24.04 LTS
 
 ````
-sudo git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git
+sudo git  clone https://github.com/JoelFernandes01/zabbix-via-scripts.git
 ````
 ![alt text](pictures/gitclone.PNG)
 
