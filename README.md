@@ -36,6 +36,8 @@ sudo git  clone https://github.com/JoelFernandes01/Zabbix-via-Scripts.git
 <h4>Observação:</h4>
 <p>Ao final do script, você irá precisar colocar o IP e descomentar as linhas no arquivo "/etc/zabbix/nginx.conf"</p>
 
+![alt text](pictures/ip-port.PNG)
+
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
 
 Agradeço a quem puder colaborar .
