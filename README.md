@@ -39,11 +39,12 @@ sudo chmod +x Zabbix-MySQL-Install.sh
 ## Etapa 5: Baixando e instalado o Grafana
 ![alt text](pictures/grafana-install.PNG)
 
-
-<h4>Observação:</h4>
-<p>Ao final do script, você irá precisar colocar o IP e descomentar as linhas no arquivo "/etc/zabbix/nginx.conf"</p>
-
-![alt text](pictures/ip-port.PNG)
+## Etapa 6: Acessando o Zabbix Dashboard
+![alt text](pictures/welcome-zabbix.PNG)
+![alt text](pictures/check.PNG)
+![alt text](pictures/configure-banco.PNG)
+![alt text](pictures/settings.PNG)
+![alt text](pictures/login-zabbix.PNG)
 
 Se achar que possa nos ajudar em melhorá-lo, entre em contato e vamos melhorar .
 
