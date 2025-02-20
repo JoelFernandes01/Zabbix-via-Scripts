@@ -37,7 +37,7 @@ echo "#------------------------------------------------------#"
 echo      			"Instalando o MySQL"
 echo "#------------------------------------------------------#"
 export DEBIAN_FRONTEND=noninteractive
-sudo apt update && apt install mysql-server -y
+sudo apt update && sudo apt install mysql-server -y
 echo "--------------------------------------------------------"
 
 echo "#------------------------------------------------------#"
