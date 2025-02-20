@@ -1,8 +1,8 @@
 #----------------------------------------------------------------------------
-# Instalação automatizada do Zabbix, MySQL e o Grafana no Ubuntu Server 22.04
+# Instalação automatizada do Zabbix, MySQL e o Grafana no Ubuntu Server 24.04
 #
 # Download da ISO do Ubuntu Server
-# https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso
+# https://deb.campolargo.pr.gov.br/ubuntu/releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso
 #----------------------------------------------------------------------------
 # Desenvolvido e personalizado por Joel Fernandes
 # Meus contatos :
@@ -10,28 +10,6 @@
 # - Linkedin: https://www.linkedin.com/in/joel-fernandes-25838425/
 # - Facebook: https://www.facebook.com/JoelFernandesSilvaFilho/
 #----------------------------------------------------------------------------
-echo "#------------------------------------------------------------------#"
-echo "Será baixado e instalado o repositório do Zabbix e suas dependências"
-echo "#------------------------------------------------------------------#"
-echo "Entre com a versão a ser instalada, 6.0, 6.4 ou 7.0 ."
-read a
-case $a in
-        (6.0)
-                echo "Linha para instalar a versão 6.0 do Zabbix"
-                wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
-        		dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
-                ;;
-        (6.4)
-                echo "Linha para instalar a versão 6.4 do Zabbix"
-                wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
-        		dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
-                ;;
-        (7.0)
-                echo "Linha para instalar a versão 7.0 do Zabbix"
-                wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
-        		dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
-                ;;
-esac
 clear
 echo "#------------------------------------------------------#"
 echo      			"Instalando o MySQL"
@@ -55,6 +33,8 @@ echo "--------------------------------------------------------------------------
 # SHOW GRANTS FOR zabbix@localhost;
 
 export DEBIAN_FRONTEND=noninteractive
+sudo wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
+sudo dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
 sudo apt update && sudo apt upgrade -y && sudo apt list --upgradable
 sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-sql-scripts zabbix-agent2 zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql -y
 #
