@@ -2,8 +2,8 @@
 # Instalação automatizada do Zabbix, MySQL e o Grafana no Ubuntu Server 24.04
 #
 # Download da ISO do Ubuntu Server
-# https://deb.campolargo.pr.gov.br/ubuntu/releases/24.04.1/ubuntu-24.04.1-live-server-amd64.iso
-#----------------------------------------------------------------------------
+# https://mirror.uepg.br/ubuntu-releases/24.04.2/ubuntu-24.04.2-live-server-amd64.iso
+----------------------------------------------------------------------------
 # Desenvolvido e personalizado por Joel Fernandes
 # Meus contatos :
 # - Celular:  (61) 98468-1921

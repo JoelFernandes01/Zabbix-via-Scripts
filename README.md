@@ -1,7 +1,7 @@
 <h2>Script com instalação padrão do Zabbix, MySQL, NGINX e o Grafana </h2>
 
 <p>Download da ISO do Ubuntu Server</p>
-<p>https://releases.ubuntu.com/22.04.3/ubuntu-22.04.3-live-server-amd64.iso</p>
+<p>https://mirror.uepg.br/ubuntu-releases/24.04.2/ubuntu-24.04.2-live-server-amd64.iso</p>
 
 <p>Desenvolvido e personalizado por Joel Fernandes</p>
 <h2>Meus contatos :</h2>
