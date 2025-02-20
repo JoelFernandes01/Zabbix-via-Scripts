@@ -22,6 +22,10 @@ sudo git  clone https://github.com/JoelFernandes01/zabbix-via-scripts.git
 ## Etapa 2: Entre na pasta e torne o script executável
 ![](pictures/chmodZabbix-MySQL-Install.PNG)
 
+````
+sudo chmod +x Zabbix-MySQL-Install.sh
+````
+
 ## Etapa 3: Execute o script e escolha a versão que deseja instalar
 
 ![alt text](pictures/escolha-a-versao.PNG)
