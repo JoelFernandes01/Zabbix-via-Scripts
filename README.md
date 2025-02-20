@@ -9,7 +9,7 @@
 <p>- Linkedin: https://www.linkedin.com/in/joel-fernandes-25838425/</p>
 <p>- Facebook: https://www.facebook.com/JoelFernandesSilvaFilho/</p>
 --------------------------------------------------------------------------
-<h3>Esse script foi desenvolvido para trabalhos de testes nas versões 6.0, 6.4 e 7.0</h3>
+<h3>Esse script foi desenvolvido para trabalhos de testes na versão 7.0</h3>
 Ele deve ser usado apenas para ambiente de testes e laboratórios, pois está apenas reproduzindo os comandos que estão no site da Zabbix no link "Download" , https://www.zabbix.com/download .
 
 ## Etapa 1: Faça o clone do repositório em seu Ubuntu 24.04 LTS
@@ -26,9 +26,7 @@ sudo git  clone https://github.com/JoelFernandes01/zabbix-via-scripts.git
 sudo chmod +x Zabbix-MySQL-Install.sh
 ````
 
-## Etapa 3: Execute o script e escolha a versão que deseja instalar
-
-![alt text](pictures/escolha-a-versao.PNG)
+## Etapa 3: Execute o script e aguarde seu final .
 
 ## Etapa 4: Aguarde a instalação terminar
 ![alt text](pictures/inicio-da-instalacao.PNG)
