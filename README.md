@@ -36,6 +36,9 @@ sudo chmod +x Zabbix-MySQL-Install.sh
 ## Na etapa da criação das tabelas, é normal demorar um pouco, não cancele, só espere
 ![alt text](pictures/mysql-instance.PNG)
 
+## Etapa 5: Baixando e instalado o Grafana
+![alt text](pictures/grafana-install.PNG)
+
 
 <h4>Observação:</h4>
 <p>Ao final do script, você irá precisar colocar o IP e descomentar as linhas no arquivo "/etc/zabbix/nginx.conf"</p>
