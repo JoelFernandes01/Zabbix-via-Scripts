@@ -55,7 +55,7 @@ echo "--------------------------------------------------------------------------
 # SHOW GRANTS FOR zabbix@localhost;
 
 export DEBIAN_FRONTEND=noninteractive
-sudo apt update && apt upgrade -y && apt list --upgradable
+sudo apt update && sudo apt upgrade -y && sudo apt list --upgradable
 sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-sql-scripts zabbix-agent2 zabbix-agent2-plugin-mongodb zabbix-agent2-plugin-mssql zabbix-agent2-plugin-postgresql -y
 #
 echo "#--------------------------------------------------------#"
